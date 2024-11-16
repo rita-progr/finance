@@ -1,0 +1,8 @@
+.app-footer{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    background:#00a2ff;
+    padding:10px;
+    bottom:0;
+}

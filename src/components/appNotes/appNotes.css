@@ -1,0 +1,51 @@
+.app-notes{
+    max-width:1200px;
+    width:100%;
+    margin:10% auto;
+    padding:20px;
+}
+.app-notes__list,.ourNotes{
+    max-width:700px;
+    width:100%;
+    margin:0 auto;
+}
+.field{
+    width:100%;
+    height:40px;
+    border:1px solid #ccc;
+    border-radius:10px;
+}
+.app-notes__list>button{
+    margin:10px auto;
+    padding:1% 10%;
+    border:none;
+    background-color: rgb(0, 162, 255);
+    color:#fff;
+    border-radius:5px;
+
+}
+.ourNotes{
+    border:1px solid #9f9f9f;
+    border-radius:10px;
+    min-height:300px;
+    background:#bfe9ff;
+}
+.ourNotes>ul{
+font-weight:500;
+align-items: start;
+}
+@media(max-width:768px){
+    .app-notes{
+        margin:15% auto;
+    }
+}
+@media(max-width:576px){
+    .app-notes{
+        margin:20% auto;
+    }
+}
+@media(max-width:440px){
+    .app-notes{
+        margin:25% auto;
+    }
+}

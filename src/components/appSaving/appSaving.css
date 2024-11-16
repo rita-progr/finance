@@ -1,0 +1,13 @@
+.app-saving{
+    width:1200px;
+    margin:10% auto;
+}
+.progress{
+    color:#fff;
+}
+.app-saving__count{
+    display:flex;
+    justify-content:space-between;
+    margin:10% auto;
+    max-width:600px;
+}
